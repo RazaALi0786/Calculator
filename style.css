@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Source+Code+Pro:wght@300&family=Wix+Madefor+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 0px;
+
+}
+
+header .text-center {
+    background-image: url(desktop-wallpaper-8-bit-11-8-bit-art.jpg);
+    background-position: center;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Wix Madefor Text', sans-serif;
+    background-color: black;
+    color: snow;
+    margin: 22px 0;
+}
+
+#body {
+    padding-top: 11px;
+}
+
+.button {
+    padding: 20px;
+    width: 66px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 12px 0;
+}
+
+.row input {
+    text-align: center;
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: snow;
+}
+
+.row button {
+    background-color: snow;
+}
+
+footer {
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    color: snow;
+    border-radius: 28px;
+    width: 20vw;
+    margin: 0 0 0 590px;
+}
+
+@media (max-width:1440px) {
+    footer {
+        width: 17vw;
+        margin: 5px 0 0 578px;
+    }
+}
+
+@media (max-width:1281px) {
+    footer {
+        width: 17vw;
+        margin: 5px 0 0 521px;
+    }
+}
+
+@media (max-width:1200px) {
+    footer {
+        width: 23vw;
+        margin: 5px 0 0 380px;
+    }
+}
+
+@media (max-width:992px) {
+    footer {
+        width: 27vw;
+        margin: 5px 0 0 266px;
+    }
+}
+
+@media (max-width:765px) {
+    footer {
+        width: 28vw;
+        margin: 5px 0 0 258px;
+    }
+}
+
+@media (max-width:540px) {
+    footer {
+        width: 39vw;
+        margin: 5px 0 0 149px;
+    }
+}
+
+@media (max-width:426px) {
+    footer {
+        width: 51vw;
+        margin: 5px 0 0 92px;
+    }
+}
+
+@media (max-width:394px) {
+    footer {
+        width: 53vw;
+        margin: 5px 0 0 82px;
+    }
+}
+
+@media (max-width:376px) {
+    footer {
+        width: 58vw;
+        margin: 5px 0px 1px 61px;
+    }
+}
+
+@media (max-width:340px) {
+    footer {
+        width: 65vw;
+        margin: 5px 0px 1px 45px;
+    }
+}
